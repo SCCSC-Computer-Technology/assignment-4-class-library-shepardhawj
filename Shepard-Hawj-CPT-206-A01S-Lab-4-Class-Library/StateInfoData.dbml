@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="StateInfoDB" Class="StateInfoDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.StateInformation" Member="StateInformations">
+    <Type Name="StateInformation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="State_Name" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="State_Pop" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="State_Flag_Des" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="State_Flower" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="State_Bird" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="State_Colors" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="State_Larg_Cities" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="State_Capital" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="State_Med_Income" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="State_Perc_CompJob" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
