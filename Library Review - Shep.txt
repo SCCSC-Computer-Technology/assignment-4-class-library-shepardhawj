@@ -1,0 +1,8 @@
+Code Review for Shep
+
+This class library is easy to follow and doesn't have any dead code. Your queries are
+well written and straight forward so it was easy to follow along and understand the 
+code. I think you could have possibliy added a few extra comments to the code maybe 
+for each query to describe the data or query itself? This could be helpful for others.
+
+Overall I think the code well writtn and clean!
