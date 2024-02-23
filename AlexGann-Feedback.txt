@@ -1,0 +1,5 @@
+The sole method of this library creates a string array from a row of the database based on state name.
+
+There are few comments, and many of the ones that exist are commenting out vestigial code. The variable
+names are also not terribly descriptive. The code is still able to be followed, but may result in some
+confusion for anyone who has to work with the library on a deeper level.
