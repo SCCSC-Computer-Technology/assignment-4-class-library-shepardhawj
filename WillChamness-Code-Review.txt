@@ -1,0 +1,3 @@
+The code compiles without warning. However, it is difficult to understand the code at first glance. I believe that comments would help significantly with readability.
+
+Using multiple foreach loops is extremely redundant at first glance. Although I haven't tested it myself, I think the data can be retrieved with a single loop. By simply selecting item instead of item.VariableName, you can execute the query once and access all fields at the same time.
